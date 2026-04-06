@@ -28,8 +28,8 @@ def main():
         ggplot(df_melted, aes(x='Value', fill='Parameter'))
         + geom_histogram(bins=80, alpha=0.90, position='identity')
         + scale_x_log10(trans=log_trans(base=np.e),
-            breaks=lambda x: [10**i for i in range(-2, 5)],
-            labels=lambda x: [f"{val:.2f}" for val in x]
+            breaks=lambda x: [10**i for i in range(-5, 5)],
+            labels=lambda x: [f"{val:.0f}" if val < 0.0001 else f"{val:.4f}" if val < 0.001 else f"{val:.3f}" if val < 0.01 else f"{val:.2f}" if val < 0.1 else f"{val:.1f}" if val < 1 else f"{val:.0f}" for val in x]
         )
         + labs(
             x='Parameter value',

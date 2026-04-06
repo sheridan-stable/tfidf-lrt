@@ -103,8 +103,8 @@ The scripts generate the following outputs corresponding to the manuscript figur
 - **Figure 1**: `bcb_precision_plot.pdf`
 - **Figure 2**: `bcb_comparison_plot.pdf`
 - **Figure 3**: `simulation/tfidf-lambda.pdf` (and `simulation/reports/tfidf-lambda-correlation.txt`)
-- **Figure 4**: `twenty-newsgroups/plots/20ng-params-mle.pdf` (from `plot-params.py`, data from `reports/20ng-bb-params-mle.csv`)
-- **Figure 5**: `r8/plots/r8-params-mle.pdf` (from `plot-params.py`, data from `reports/r8-bb-params-mle.csv`)
+- **Figure 4**: `twenty-newsgroups/plots/parameter-distribution-20ng.pdf` (from `plot-params.py`, data from `reports/20ng-bb-params-mle.csv`)
+- **Figure 5**: `r8/plots/parameter-distribution-r8.pdf` (from `plot-params.py`, data from `reports/r8-bb-params-mle.csv`)
 - **Figure A1**: `twenty-newsgroups/plots/20ng-sensitivity-analysis-grid.pdf`
 - **Figure A2**: `r8/plots/r8-sensitivity-analysis-grid.pdf`
 - **Table 2**: `twenty-newsgroups/reports/tf-idf-report.txt` and `twenty-newsgroups/reports/lambda-i-report.txt`
