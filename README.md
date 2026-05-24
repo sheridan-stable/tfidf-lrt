@@ -129,9 +129,9 @@ If you find anything useful please cite our work using:
  title = {Common {TF}–{IDF} Variants Arise as Key Components in the Test Statistic of a Penalized Likelihood-ratio Test for Word Burstiness},
  author = {Ahmed, Zeyad and Sheridan, Paul and McIsaac, Michael and Farooque, Aitazaz A.},
  journal = {Discover Computing},
- volume={29},
- number={1},
- pages={274},
+ volume = {29},
+ number = {1},
+ pages = {274},
  year = {2026},
  url = {https://doi.org/10.1007/s10791-026-10090-4},
  doi = {10.1007/s10791-026-10090-4}
