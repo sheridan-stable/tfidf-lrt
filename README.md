@@ -2,6 +2,10 @@
 
 This repository contains computer code for reproducing the results numerical described in the manuscript “Common TF–IDF variants arise as key components in the test statistic of a penalized likelihood-ratio test for word burstiness”
 
+Journal article link: https://link.springer.com/article/10.1007/s10791-026-10090-4
+
+ArXiv preprint link: https://arxiv.org/abs/2604.00672
+
 ## Getting Started
 
 Clone this repository by running the command
@@ -121,11 +125,15 @@ For more open-ended inquiries, we encourage starting a [discussion](https://gith
 ## Citation
 If you find anything useful please cite our work using:
 ```
-@misc{Ahmed2026,
-  author = {Zeyad Ahmed and Paul Sheridan and Michael McIsaac and Aitazaz A. Farooque},
-  title = {Common {TF}–{IDF} variants arise as key components in the test statistic of a penalized likelihood-ratio test for word burstiness},
-  journal = {Discover Computing},
+@article{Ahmed2026,
+ title = {Common {TF}–{IDF} Variants Arise as Key Components in the Test Statistic of a Penalized Likelihood-ratio Test for Word Burstiness},
+ author = {Ahmed, Zeyad and Sheridan, Paul and McIsaac, Michael and Farooque, Aitazaz A.},
+ journal = {Discover Computing},
+ volume={29},
+ number={1},
+ pages={274},
  year = {2026},
- note = "(Revision requested)"
+ url = {https://doi.org/10.1007/s10791-026-10090-4},
+ doi = {10.1007/s10791-026-10090-4}
 }
 ```
